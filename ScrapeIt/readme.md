@@ -27,10 +27,10 @@ pip install streamlit requests pandas
 ```
 
 ## Usage
-1. Edit `main.py` if you want to change default settings or UI text.
+1. Edit `script.py` if you want to change default settings or UI text.
 2. Run the Streamlit app:
 ```
-streamlit run main.py
+streamlit run script.py
 ```
 3. Use the web interface to search for repositories and download results. The results table will show the repository name (plain text) and a clickable repository link.
 
