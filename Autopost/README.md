@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ### 3. Environment File (.env)
 Create a `.env` file with:
 ```
-GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here1
 DEVTO_API_KEY=your_devto_api_key_here
 ```
 
