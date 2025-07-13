@@ -12,7 +12,7 @@ time.sleep(5)
 
 try:
     while True:
-        # ⏳ Wait a few seconds to ensure the new video loads
+        #  Wait a few seconds to ensure the new video loads
         time.sleep(2)
 
         #  Re-fetch the <video> element (very important!)
