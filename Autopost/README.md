@@ -12,16 +12,19 @@ pip install -r requirements.txt
 ### 2. Set up API Keys
 
 #### Gemini API Key
-1. Go to https://makersuite.google.com/app/apikey
+
+1. Go to [Google Makersuite API Key page](https://makersuite.google.com/app/apikey)
 2. Create a new API key
 3. Add it to your `.env` file: `GEMINI_API_KEY=your_key_here`
 
 #### DEV.to API Key (Primary Method)
-1. Go to https://dev.to/settings/extensions
+
+1. Go to [DEV.to Extensions Settings](https://dev.to/settings/extensions)
 2. Generate a new API key
 3. Add it to your `.env` file: `DEVTO_API_KEY=your_key_here`
 
 ### 3. Environment File (.env)
+
 Create a `.env` file with:
 ```
 GEMINI_API_KEY=your_gemini_api_key_here1
@@ -51,8 +54,8 @@ python main.py --debug
 
 2. **API Key Issues**
    - Make sure your API keys are correct in the `.env` file
-   - For Gemini: https://makersuite.google.com/app/apikey
-   - For DEV.to: https://dev.to/settings/extensions
+   - For Gemini: [https://makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey)
+   - For DEV.to: <https://dev.to/settings/extensions>
 
 3. **Content Generation Issues**
    - Check your Gemini API key is valid
@@ -65,6 +68,7 @@ python main.py --debug
    - Wait a few minutes and try again
 
 ### Files Generated During Debugging
+
 - Debug files are automatically cleaned up after successful runs
 - Only essential project files remain in the directory
 
@@ -84,6 +88,7 @@ python main.py --debug
 ## What Gets Generated
 
 The script creates detailed technical articles covering topics like:
+
 - Generative AI advancements
 - New programming frameworks
 - Cybersecurity developments
@@ -91,6 +96,7 @@ The script creates detailed technical articles covering topics like:
 - Emerging technologies
 
 Each post includes:
+
 - Professional title and structure
 - Code examples where relevant
 - Technical insights and analysis
